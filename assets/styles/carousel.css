@@ -1,0 +1,44 @@
+.carousel__title {
+  color: var(--orange);
+  background-color: var(--white);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 1em 0 0.5em 0;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 1em 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel__title {
+    font-size: 26px;
+    padding-top: 2em;
+  }
+
+  .swiper-pagination {
+    margin: 2em;
+  }
+
+  .swiper {
+    width: 80%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+}

@@ -1,12 +1,22 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("carousel.css");
+@import url("card.css");
+@import url("topics.css");
+@import url("news.css");
+@import url("footer.css");
 
 :root {
   --bg-color: #ebecee;
   --white: #ffffff;
   --orange: #eb9b00;
+  --blue: #142937;
+  --black: #000000;
+  --grey: #474646;
+  --light-grey: #858585;
   --gradient-blue: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   --main-font: "Poppins";
+  --logo-font: "Josefin Sans";
 }
 
 body {
